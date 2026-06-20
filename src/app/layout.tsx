@@ -26,7 +26,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <head>
-        <meta name="google-site-verification" content="-KAXKapowesX29mQRT7X2wkdf7_vdD_OpFn3qlLPkZk" />
+        <meta name="google-site-verification" content="tW30uxwrIxHeoXM5In2PjCP9xvCTQODDPuBU8jKP-rg" />
         {Object.entries(alternateLanguages).map(([hrefLang, href]) => (
           <link key={hrefLang} rel="alternate" hrefLang={hrefLang} href={href} />
         ))}
